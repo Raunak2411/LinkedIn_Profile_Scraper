@@ -12,8 +12,8 @@ username = input('Enter your linkedin username')
 password = getpass('Enter your linkedin password')
 
 
-job_profile = input('Enter required job_profile')
-location = input('Enter required location')
+job_profile = input('Enter required Job_profile')
+location = input('Enter required Location/Organization')
 
 
 query = 'site:linkedin.com/in/ AND "'+job_profile+'" AND "'+location+'"'
